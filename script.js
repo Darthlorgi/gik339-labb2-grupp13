@@ -1,8 +1,8 @@
 const checkbox = document.querySelector(".checkbox");
 const textfields = document.querySelectorAll(".textfield");
-//query selector eturnerar ett enda element (HTMLElement), inte en array/lista.
-//Eftersom det bara finns en checkbox som ska kopplas till en enskild addEventListener("change", ...)
-//vill viarbeta direkt mot själva elementet och inte plocka ut index [0] ur en lista.
+/* query selector eturnerar ett enda element (HTMLElement), inte en array/lista.
+Eftersom det bara finns en checkbox som ska kopplas till en enskild addEventListener("change", ...)
+vill vi arbeta direkt mot själva elementet och inte plocka ut index [0] ur en lista. */
 
 const button = document.getElementById("tabort");
 const myDiv = document.getElementById("myDiv");
