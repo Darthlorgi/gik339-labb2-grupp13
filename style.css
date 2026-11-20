@@ -3,14 +3,28 @@ body {
 }
 
 div {
-    padding: 0.5rem;
+  padding: 0.5rem;
 }
 #div {
   border: 0.3rem solid white;
-  margin: 1rem;
+  margin: 100px auto;
+  width: 600px;
+  max-width: 90%;
   margin-top: 100px;
   padding: 1rem;
   background-color: bisque;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 100px 200px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.checkbox {
+  justify-self: start;
+  margin-left: 0;
 }
 
 .textfield {
@@ -25,7 +39,8 @@ div {
   background-color: white;
 }
 
-#button {
+#tabort {
   background-color: white;
   border: 1px solid black;
+  padding: 6px;
 }
