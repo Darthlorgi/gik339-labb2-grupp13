@@ -16,7 +16,8 @@ function TextInput(e) {
 }
 
 //Funktionen definieras först, men körs inte förrän loopen for (const field of textfields) kopplar den som lyssnare till varje textfält med field.addEventListener("input", TextInput).
-//När du skriver i #color körs TextInput(e) och loggar fältet i konsolen, men fieldId === "content" blir falskt så myDiv.innerHTML ändras inte. När du skriver i #content blir villkoret sant och texten inuti myDiv uppdateras direkt.
+//När du skriver i #color körs TextInput(e) och loggar fältet i konsolen, men fieldId === "content" blir falskt så myDiv.innerHTML ändras inte.
+//När du skriver i #content blir villkoret sant och texten inuti myDiv uppdateras direkt.
 
 //Uppgift 6
 //Eventlyssnare till checkboxen
